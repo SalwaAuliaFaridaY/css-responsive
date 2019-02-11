@@ -1,0 +1,199 @@
+*{
+    box-sizing: border-box;
+}
+[class*="col-"] {float: left; padding: 15px;}
+
+/* For smartphone*/
+[class*="col-"] {width: 100%;}
+
+@media only screen and (min-width: 600px) {
+    /* for tablets*/
+    .col-s-1 {width: 8.33%;}    
+    .col-s-2 {width: 16.66%;}
+    .col-s-3 {width: 25%;}
+    .col-s-4 {width: 33.33%;}
+    .col-s-5 {width: 41.66%;}
+    .col-s-6 {width: 50%;}
+    .col-s-7 {width: 58.33%;}
+    .col-s-8 {width: 66.66%;}
+    .col-s-9 {width: 75%;}
+    .col-s-10 {width: 83.33%;}
+    .col-s-11 {width: 91.66%;}
+    .col-s-12 {width: 100%;}
+}
+
+@media only screen and (min-width: 768){
+    /*for dekstop*/
+    .col-1 {width: 8.33%;}    
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+}
+
+div.menu{
+    width: 100%;
+    background-color: #ffD700;
+}
+
+div.menu ul{
+    list-style-type: none;
+    display: block;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+div.menu ul li{
+    float: right;
+}
+div.menu ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    display: block;
+    margin: 0;
+    padding: 10px 15px;
+    text-align:center;
+    letter-spacing: 2px;
+}
+div.menu ul li a:hover{
+    border-bottom: 2px solid #fff;
+}
+div.menu img{
+    width: 150px;
+    height: auto;
+}
+
+.about{
+    width: 100%;
+    height: 50px;
+    margin-top: 30px;
+}
+
+div.about .left{
+    width: 50%;
+    height: 100%;
+    text-align: left;
+}
+
+div.about .left h1{
+    text-align: center;
+    font-size: 40px;
+    font-family: sans-serif;
+    font-weight: 15;
+    text-transform: uppercase;
+    border-right: 5px solid #ffD700;
+    padding-right: 20px;
+}
+
+div.about .left p{
+    text-align: center;
+    color: #000;
+    font-size: 20px;
+}
+
+div.about .right{
+    width: 50%;
+    height: 400px;
+    float: right;
+}
+
+div.about .right img{
+    width: 400px;
+    height: auto;
+    border: 5px solid #000;
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-left: 100px;
+}
+
+.budaya{
+    width: 100%;
+    height: 600px;
+    float: left;
+    margin-top: 50px;
+}
+
+.budaya .box{
+    width: 25%;
+    height: auto;
+    margin-top: 20px;
+}
+.budaya .box .persegi{
+    width: 20px;
+    height: auto;
+    float: left;
+}
+.budaya .box .persegi img{
+    width: 200px;
+    height: auto;
+    position:  relative;
+    border: 8px solid rgb(6, 206, 189);
+}
+.budaya .box .deskripsi{
+    text-align: left;
+    margin-left: 80%;
+    width: 100%;
+    border: 4px solid rgb(6, 206, 189);
+}
+
+.image{
+    width: 200px;
+    height: 200px;
+    border: 8px double rgb(133, 190, 19);
+    border-radius: 20px;
+    margin-top: 450px;
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+    padding: 10px;
+}
+.box{
+    width: 25%;
+    text-align: center;
+}
+
+.wisata .y .image{
+    width: 200px;
+    height: 200px;
+    border: 8px double rgb(133, 190, 19);
+    border-radius: 20px;
+    margin-top: 5px;
+}
+
+.wisata{
+    width: 80%;
+    margin: 0 auto;
+    padding: 10px;
+}
+.y{
+    width: 25%;
+    text-align: center;
+}
+
+.kuliner .x .image{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: 0 auto;
+    border: 20px double rgba(243, 186, 1, 0.938);
+}
+
+.kuliner{
+    width: 80%;
+    margin: 0 auto;
+    padding: 10px;
+}
+.x{
+    width: 25%;
+    text-align: center;
+}
